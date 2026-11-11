@@ -1,0 +1,385 @@
+======================================================================
+WEEK 2 | PROJECT MODULE 4 (W2-PM4)
+FOOTPRINTING & RECONNAISSANCE WITH theHARVESTER
+Target (specified by the W2-PM4 module): microsoft.com - public sources only
+Tester: Sneha Hariprasad Pillai | Batch B084 | Run date: 10 Nov 2026
+Task 1 was transcribed from the terminal screenshot. Task 2 is the
+saved tool output, unedited (about 9,786 lines, mostly host names).
+======================================================================
+
+
+----------------------------------------------------------------------
+TASK 1: Search microsoft.com using Baidu (limit 1000)
+----------------------------------------------------------------------
+
+┌──(kali㉿kali)-[~]
+└─$ theHarvester -d microsoft.com -l 1000 -b baidu
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com
+
+[*] Searching Baidu.
+
+[*] No IPs found.
+
+[*] No emails found.
+
+[*] No people found.
+
+[*] No hosts found.
+
+
+┌──(kali㉿kali)-[~]
+└─$
+
+
+----------------------------------------------------------------------
+TASK 2: Search microsoft.com using all sources (limit 50)
+----------------------------------------------------------------------
+
+┌──(kali㉿kali)-[~]
+└─$ theHarvester -d microsoft.com -l 50 -b all
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+
+[*] Target: microsoft.com 
+
+
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bevigil search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for bevigil. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+
+[!] Missing API key for Bitbucket. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bufferoverun search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for bufferoverun. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to perform BuiltWith search for word: 'microsoft.com'
+A Missing Key Error occurred in builtwith: 
+[!] Missing API key for BuiltWith. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process brave search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for Brave Search. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Censys API key is missing or invalid: 
+[!] Missing API key for Censys ID and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing key error occurred in criminalip: 
+[!] Missing API key for criminalip. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dehashed: 
+[!] Missing API key for Dehashed. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+
+[!] Missing API key for DNSDumpster. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dymo: 
+[!] Missing API key for dymo. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in fullhunt: 
+[!] Missing API key for fullhunt. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error initializing SearchGithubCode: 
+[!] Missing API key for Github. 
+A Missing Key error occurred in github-code: 
+[!] Missing API key for Github. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+
+[!] Missing API key for HaveIBeenPwned. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter: 
+[!] Missing API key for Hunter. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter How: 
+[!] Missing API key for hunterhow. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in intelx: 
+[!] Missing API key for Intelx. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+[*] Mojeek: No API key found, using default scraping mode.
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Netlas: 
+[!] Missing API key for netlas. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Unexpected error occurred in Onyphe module: 
+[!] Missing API key for onyphe. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in PentestTools search: 
+[!] Missing API key for PentestTools. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in ProjectDiscovery: 
+[!] Missing API key for ProjectDiscovery. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in RocketReach: 
+[!] Missing API key for RocketReach. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+
+[!] Missing API key for SecurityScorecard. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred Security Trails: 
+[!] Missing API key for Securitytrail. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in sherlockeye: 
+[!] Missing API key for sherlockeye. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Shodan search: 
+[!] Missing API key for Shodan. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Tomba: 
+[!] Missing API key for Tomba Key and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in venacus search: 
+[!] Missing API key for Venacus. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in virustotal search: 
+[!] Missing API key for virustotal. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in whoisxml search: 
+[!] Missing API key for whoisxml. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in zoomeye: 
+[!] Missing API key for zoomeye. 
+[*] Searching Chaos. 
+        Searching results.
+[*] Searching Certspotter. 
+[*] Searching Baidu. 
+[*] Searching Duckduckgo. 
+Fofa API error: [-700] 账号无效
+Failed to parse Fofa response: 
+[!] Missing API key for Fofa API (Invalid credentials). 
+[*] Searching Fofa. 
+[*] Searching CRTsh. 
+[*] Searching Hackertarget. 
+2026-11-10 13:59:31,484 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock processing for: microsoft.com
+2026-11-10 13:59:31,485 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock search for: microsoft.com
+2026-11-10 13:59:53,969 - theHarvester.discovery.hudsonrocksearch - INFO - Domain statistics: 621809 total compromised, 16601 employees, 600418 users
+2026-11-10 13:59:53,972 - theHarvester.discovery.hudsonrocksearch - INFO - Extracted 44 hosts from employee URLs
+2026-11-10 13:59:54,974 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock search completed. Found 44 hosts, 0 IPs, 0 emails
+2026-11-10 13:59:54,974 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock processing completed successfully: 44 hosts, 0 IPs, 0 emails, 0 stealers
+[*] Searching Hudsonrock. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+LeakIX API requires authentication: "Incorrect API Key"
+[*] Searching Commoncrawl. 
+[*] Searching Leaklookup. 
+[*] Searching Leakix. 
+[*] Searching Mojeek. 
+[*] Searching Otx. 
+[*] Searching Rapiddns. 
+[*] Searching Robtex. 
+[*] Searching ShodanInternetDB. 
+[*] Searching Subdomaincenter. 
+[*] Searching Thc. 
+No response from ThreatCrowd API for: microsoft.com
+[*] Searching Threatcrowd. 
+[*] Searching Subdomainfinderc99. 
+[*] Searching Urlscan. 
+[*] Windvane API key not found. Using limited unauthenticated access.
+[*] API unavailable, using fallback subdomain pattern search...
+[*] Found 14 subdomains using DNS fallback
+[*] Searching Windvane. 
+[*] Searching Yahoo. 
+[*] Searching Gitlab. 
+[*] Searching Waybackarchive. 
+
+
+[*] ASNS found: 9
+--------------------
+AS13335
+AS133618
+AS14618
+AS16625
+AS206834
+AS20940
+AS40034
+AS47583
+AS8075
+
+
+[*] Interesting Urls found: 9
+--------------------
+https://azure.microsoft.com/de-de/products/azure-maps/
+https://krs.microsoft.com/redirect?id=-crYd9Lj
+https://login.microsoftonline.com/70a036f6-8e4d-4615-bad6-149c02e7720d/oauth2/v2.0/authorize?client_id=93c471b5-cd52-43b1-9bf3-e152633672f9&scope=93c471b5-cd52-43b1-9bf3-e152633672f9%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fincentivemodeler-qa.microsoft.com&client-request-id=01a1c6d0-3232-7404-a120-208d882e23c8&response_mode=fragment&client_info=1&clidata=1&nonce=01a1c6d0-3234-74d9-8510-d263571c941d&state=eyJpZCI6IjAxYTFjNmQwLTMyMzQtNzRiNC05NGUzLTM4ZjUyNjVhMDM5OCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&claims=%7B%22id_token%22%3A%7B%22signin_state%22%3A%7B%22essential%22%3Afalse%7D%2C%22login_hint%22%3A%7B%22essential%22%3Afalse%7D%2C%22tenant_region_sub_scope%22%3A%7B%22essential%22%3Afalse%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=5.22.0&response_type=code&code_challenge=1uKB324SQyaJ5HhdaWmJGjpnPxzq_pnO8pgkyMrfIxY&code_challenge_method=S256
+https://login.microsoftonline.com/70a036f6-8e4d-4615-bad6-149c02e7720d/oauth2/v2.0/authorize?client_id=acbebad6-5ca1-4ddd-ba0b-c5cdedce2f15&scope=https%3A%2F%2Fincentiveguide-qa.partner.microsoft.com%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fincentiveguide-qa.partner.microsoft.com%2Fredirect&client-request-id=01a1c6d0-43ca-7868-8488-d7d4db21c346&response_mode=fragment&client_info=1&clidata=1&prompt=select_account&nonce=01a1c6d0-43cb-7405-8f35-de17e1403a72&state=eyJpZCI6IjAxYTFjNmQwLTQzY2ItN2ExMS04ZmYzLWZlZTc2YTVjMzA3MiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&x-client-SKU=msal.js.browser&x-client-VER=5.14.0&response_type=code&code_challenge=uAzthO8I7-5nzQB8yrsU3GmxwBYUq9GfQ1cURfI6h9c&code_challenge_method=S256&max_age=3600
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?state=klajkldfjakljfkajfdkjadslkfj&scope=openid+profile+https%253A%252F%252Fgraph.microsoft.com%252FUser.Read&prompt=none&client_id=d437b25f-471a-42fb-a619-cac7f3c7df7c&ref=ecdf438bdb807c5e46ae728be506e12d&uri=https%252525252525252525252525252525252525252525252525253A%252525252525252525252525252525252525252525252525252F%252525252525252525252525252525252525252525252525252Flogin.microsoftonline.com%252525252525252525252525252525252525252525252525252Fcommon%252525252525252525252525252525252525252525252525252Foauth2%252525252525252525252525252525252525252525252525252Fv2.0%252525252525252525252525252525252525252525252525252Fauthorize%252525252525252525252525252525252525252525252525253Fclient_id%252525252525252525252525252525252525252525252525253D30201468-b0f5-481e-b299-ca990be46972%2525252525252525252525252525252525252525252525252526response_type%252525252525252525252525252525252525252525252525253Dcode%2525252525252525252525252525252525252525252525252526response_mode%252525252525252525252525252525252525252525252525253Dquery%2525252525252525252525252525252525252525252525252526scope%252525252525252525252525252525252525252525252525253Dopenid%252525252525252525252525252525252525252525252525252Bprofile%252525252525252525252525252525252525252525252525252Bemail%252525252525252525252525252525252525252525252525252Bhttps%25252525252525252525252525252525252525252525252525253A%25252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252Fgraph.microsoft.com%25252525252525252525252525252525252525252525252525252FUser.Read%2525252525252525252525252525252525252525252525252526prompt%252525252525252525252525252525252525252525252525253Dnone%2525252525252525252525252525252525252525252525252526state%252525252525252525252525252525252525252525252525253D%252525252525252525252525252525252525252525252525257BRECIPIENT_BASE64_EMAIL%252525252525252525252525252525252525252525252525257D%250A
+https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=c44b4083-3bb0-49c1-b47d-974e53cbdf3c&scope=https%3A%2F%2Fmanagement.core.windows.net%2F%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fintune.microsoft.com%2Fauth%2Flogin%2F&client-request-id=01a1c6c0-0b70-78ad-a925-46ca06e90e38&response_mode=fragment&client_info=1&clidata=1&nonce=01a1c6c0-0b70-7c5a-b96b-ffc3dd19a9e9&state=eyJpZCI6IjAxYTFjNmMwLTBiNzAtN2MxYS1iOGU4LThiZjBiNmExNGRhNiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&claims=%7B%22id_token%22%3A%7B%22signin_state%22%3A%7B%22essential%22%3Afalse%7D%2C%22login_hint%22%3A%7B%22essential%22%3Afalse%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=5.18.0&response_type=code&code_challenge=nI7tLZvV6-v0fxEl4pkRFnfH_nCosqMf9_z22MiADIU&code_challenge_method=S256&site_id=501430&instance_aware=true
+https://mcp.microsoft.com/
+https://www.microsoft.com/en-GB/privacy/privacystatement
+https://www.microsoft.com/en-US/microsoft-365/legal/docid12
+
+
+[*] No LinkedIn users found.
+
+
+
+
+
+
+[*] LinkedIn Links found: 0
+---------------------
+
+
+[*] IPs found: 58
+-------------------
+103.224.182.245
+103.224.182.250
+103.224.182.90
+134.170.188.232
+145.223.32.52
+150.171.109.100
+150.171.110.81
+150.171.110.83
+150.171.73.13
+150.171.74.13
+172.64.146.215
+172.66.43.116
+185.53.179.200
+199.191.50.11
+199.191.50.184
+199.191.50.227
+199.191.50.73
+199.191.50.82
+20.112.250.133
+20.190.146.38
+20.190.159.131
+20.190.190.193
+20.76.201.171
+204.11.56.246
+208.91.196.105
+208.91.196.118
+208.91.196.152
+208.91.197.13
+208.91.197.132
+208.91.197.26
+208.91.197.27
+208.91.197.39
+208.91.197.7
+23.220.98.100
+23.47.248.146
+23.52.181.212
+23.55.46.126
+2603:1026:3000:148::6
+2603:1026:3000:148::7
+2603:1026:3000:150::c
+2603:1026:3000:d0::
+2603:1027:1:150::5
+2603:1027:1:c8::
+2603:1027:1:d8::7
+2603:1061:14:61::1
+2603:1061:14:64::1
+2a02:26f0:3500:f84::439b
+2a06:98c1:3109::6812:2929
+2a06:98c1:310b::ac40:92d7
+35.173.69.207
+40.126.24.81
+40.126.31.130
+40.126.31.2
+40.126.31.71
+40.126.32.138
+40.126.62.129
+65.55.186.235
+
+
+[*] Emails found: 3
+----------------------
+dotnet-docker-bot@microsoft.com
+opencode@microsoft.com
+secure@microsoft.com
+
+
+[*] No people found.
+
+
+[*] Hosts found: 9490
+---------------------
+*.api.cfp.microsoft.com
+*.bigcatalog-ppe.commerce.microsoft.com
+*.bizextsvc-int.microsoft.com
+*.canary.mfavalidation.auth.microsoft.com
+*.canary.testmymfa.auth.microsoft.com
+*.ckms.prod.communication.microsoft.com
+*.cloudcare-aks-ppe.caresupplychain.microsoft.com
+*.cloudcare-aks-prd.caresupplychain.microsoft.com
+*.console-m365d.microsoft.com
+*.copilotstudio.microsoft.com
+*.dl.adu.microsoft.com
+*.emailinbg.ppe.communication.microsoft.com
+*.events.prod.communication.microsoft.com
+*.frontdoor.bigcatalog-ppe.commerce.microsoft.com
+*.preprod.api.bap.microsoft.com
+*.prod.api.copilotforfinance.microsoft.com
+*.publisher-aircapi.1pp.microsoft.com
+*.rooms.ppe.communication.microsoft.com
+*.test.api.bap.microsoft.com
+*.tip1.api.bap.microsoft.com
+*.tip2.api.bap.microsoft.com
+04bb462a-3730-48e5-84db-56f42351ec71.microsoft.com
+05c50d84-b811-498b-b2d0-d720f443091c.microsoft.com
+064-smtp-in-2a.microsoft.com
+064-smtp-in-2a.microsoft.com:157.54.41.37
+0688854f-d5d9-4885-8447-8599aa383f4e.microsoft.com
+08dbb1e2-14d0-4668-a751-5e89b2ecdc61.microsoft.com
+0c1bc83d-d1fe-445b-8346-09c567e07385.microsoft.com
+11b59461-755a-4882-8ba9-58e2e788d644.microsoft.com
+140.82.8.34.microsoft.com
+149.28.32.9.microsoft.com
+14cd4cb2-348e-4864-8cd9-de45179cc5d2.microsoft.com
+17e3e2bf-2dd9-4ed3-8b46-bed1c6112784.microsoft.com
+1df037eb-e2f8-4337-9ecb-1e61a37c1c20.microsoft.com
+1eec5887-103c-48d0-a492-c2a9945d4845.microsoft.com
+1es-mcp-gallery.microsoft.com
+1es-mcp-gallery.microsoft.com:150.171.110.17
+1esbot-test.microsoft.com
+1esbot.microsoft.com
+1eslivesecrets.microsoft.com
+1esrm.tme.cloudtest.microsoft.com
+1pafdtest.compliancedrive.microsoft.com
+1ponlinestore.microsoft.com
+1pubng-dev.corp.microsoft.com
+1pubng-ppe.corp.microsoft.com
+1pubng-prod.corp.microsoft.com
+1s.microsoft.com
+1s.microsoft.com:150.171.110.17
+2015hrgc.microsoft.com
+2090caf3-e02d-4034-9a9a-073b728d2530.microsoft.com
+
+[... remaining host names omitted from this public copy (9,490 hosts found in total) ...]
